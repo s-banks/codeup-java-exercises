@@ -2,6 +2,24 @@ import java.util.Scanner;
 
 public class MethodsExercises {
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //    public static int getDifference (int num1, int num2) {
 //        return num1-num2;
 //    }
@@ -44,15 +62,52 @@ public class MethodsExercises {
 //            System.out.println("correct "+ result);
 //        }
 
-	public static void main(String []args){
-		Scanner in = new Scanner(System.in);
-		long result;
-		do {
-			System.out.println("Enter a number between 1 and 10: ");
-			result = in.nextInt();
-		} while(result < 0 || result > 10);
+//	public static int factorial() {
+//		Scanner in = new Scanner(System.in);
+//		long result;
+//		long i, fact = 1;
+//		boolean decision = true;
+//		do {
+//			System.out.println("Enter a number between 1 and 10: ");
+//			result = in.nextInt();
+//			for (i = 1; i <= result; i++) {
+//				fact = fact * i;
+//			}
+//			System.out.println(fact + " is your factored number");
+//		} while (result < 0 || result > 10);
+//		System.out.println("Factorial of " + result + " is: " + fact);
+//		System.out.println("Do you want to try again? (Y/N)");
+//		String userChoice = in.next();
+//		if (userChoice.equalsIgnoreCase("n")) {
+//			decision = false;
+//		}
+//	}
 
-	}
+
+//factoring exercise
+//		boolean decision = true;
+//		while(decision) {
+//			Scanner in = new Scanner(System.in);
+//			long result;
+//			long i, fact = 1;
+//			do {
+//				System.out.println("Enter a number between 1 and 10: ");
+//				result = 0;
+//				result = in.nextInt();
+//				for (i = 1; i <= result; i++) {
+//					fact = fact * i;
+//				}
+//			} while (result < 0 || result > 10);
+//				System.out.println("Factorial of " + result + " is: " + fact);
+//				System.out.println("Do you want to try again? (Y/N)");
+//				String userChoice = in.next();
+//				if (userChoice.equalsIgnoreCase("n")) {
+//					decision = false;
+//				}
+//
+//		}
+//
+//	}
 
 
 }
