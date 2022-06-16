@@ -7,19 +7,48 @@ public class Person {
 	public static final String bloodTemperature = "warm";
 
 
-	public String getName(){
-//TODOne: return the person's name
-		return this.name;
-	}
+//	public String getName(){
+////TODOne: return the person's name
+//		return this.name;
+//	}
+//
+//	public void setName(String name){
+////TODOne: change the name field to the passed value
+//		this.name = name;
+//	}
+//	public String sayHello(){
+////TODOne: print a message to the console using the person's name
+//		return String.format("Hello, my name is %s", this.name, this.age, this.occupation);
+//	}
+//
+//
+//	Person person1 = new Person("John");
+//	Person person2 = new Person("John");
+//System.out.println(person1.getName().equals(person2.getName()));
+//System.out.println(person1 == person2);
+//
+//
+//	Person person1 = new Person("John");
+//	Person person2 = person1;
+//System.out.println(person1 == person2);
+//
+//
+//	Person person1 = new Person("John");
+//	Person person2 = person1;
+//System.out.println(person1.getName());
+//System.out.println(person2.getName());
+//person2.setName("Jane");
+//System.out.println(person1.getName());
+//System.out.println(person2.getName());
 
-	public void setName(String name){
-//TODOne: change the name field to the passed value
-		this.name = name;
-	}
-	public String sayHello(){
-//TODO: print a message to the console using the person's name
-		return String.format("Hello, my name is %s", this.name, this.age, this.occupation);
-	}
+
+
+
+
+
+
+
+
 
 
 
@@ -39,54 +68,54 @@ public class Person {
 //		this.name = name;
 //	}
 
-	public int getAge() {
-		return age;
-	}
-
-	public void setAge(int age) {
-		this.age = age;
-	}
-
-	public String getOccupation() {
-		return occupation;
-	}
-
-	public void setOccupation(String occupation) {
-		this.occupation = occupation;
-	}
-
-	public String getEyeColor() {
-		return eyeColor;
-	}
-
-	public void setEyeColor(String eyeColor) {
-		this.eyeColor = eyeColor;
-	}
-
-	public Person() {
-	}
-
-	public Person(String name, int age, String occupation) {
-		this.name = name;
-		this.age = age;
-		this.occupation = occupation;
-//        this.eyeColor = "brown";
-	}
-
-	public Person(String name, int age, String occupation, String eyeColor) {
-		this.name = name;
-		this.age = age;
-		this.occupation = occupation;
-		this.eyeColor = eyeColor;
-	}
-
-	public static void main(String[] args) {
-		Person ron = new Person("Ron", 42, "Long Haul Trucker/Calgon Representative");
+//	public int getAge() {
+//		return age;
+//	}
+//
+//	public void setAge(int age) {
+//		this.age = age;
+//	}
+//
+//	public String getOccupation() {
+//		return occupation;
+//	}
+//
+//	public void setOccupation(String occupation) {
+//		this.occupation = occupation;
+//	}
+//
+//	public String getEyeColor() {
+//		return eyeColor;
+//	}
+//
+//	public void setEyeColor(String eyeColor) {
+//		this.eyeColor = eyeColor;
+//	}
+//
+//	public Person() {
+//	}
+//
+//	public Person(String name, int age, String occupation) {
+//		this.name = name;
+//		this.age = age;
+//		this.occupation = occupation;
+////        this.eyeColor = "brown";
+//	}
+//
+//	public Person(String name, int age, String occupation, String eyeColor) {
+//		this.name = name;
+//		this.age = age;
+//		this.occupation = occupation;
+//		this.eyeColor = eyeColor;
+//	}
+//
+//	public static void main(String[] args) {
+//		Person ron = new Person("Ron", 42, "Long Haul Trucker/Calgon Representative");
 //        ron.name = "Ron";
 //        ron.age = 42;
 //        ron.occupation = "Long Haul Trucker/Calgon Representative";
 
-		Person jeff = new Person("Jeff", 37, "Rocket Scientist", "amber");
+//		Person jeff = new Person("Jeff", 37, "Rocket Scientist", "amber");
 //        jeff.name = "Jeff";
 //        jeff.age = 37;
 //        jeff.occupation = "Rocket Scientist";
@@ -97,5 +126,5 @@ public class Person {
 		//System.out.println(ron.name);
 
 		//System.out.println(Person.areBipedal);
-	}
+//	}
 }
