@@ -6,6 +6,9 @@ public class Person {
 	public static final boolean areBipedal = true;
 	public static final String bloodTemperature = "warm";
 
+	public Person(String name) {
+		this.name = name;
+	}
 
 //	public String getName(){
 ////TODOne: return the person's name
