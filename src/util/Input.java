@@ -11,6 +11,10 @@ public class Input {
 		return scanner.nextLine();
 	}
 
+	public void clearScanner() {
+		scanner.nextLine();
+	}
+
 	public boolean yesNo() {
 		System.out.println("Please input: Yes or No");
 		String input = this.scanner.nextLine();

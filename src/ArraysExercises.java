@@ -14,11 +14,11 @@ public class ArraysExercises {
 		int[] numbers = {1, 2, 3, 4, 5};
 		System.out.println(numbers);
 
-		fill(people, "tom");
+		Arrays.fill(people, "tom");
 
-		String[] check = addPerson(ArraysExercise.people,"robert");
+		String[] check = addPerson(people,"Bob");
 
-		for (String person : ArraysExercise.people) {
+		for (String person : people) {
 			System.out.println(person);
 		}
 		for (String person : check) {
