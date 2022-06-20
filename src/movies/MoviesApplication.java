@@ -23,8 +23,6 @@ public class MoviesApplication {
 				case "3" -> listAllDrama();
 				case "4" -> listAllHorror();
 				case "5" -> listAllScifi();
-				default -> {
-				}
 			}
 		}
 	}
