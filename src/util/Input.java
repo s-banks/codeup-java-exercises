@@ -7,7 +7,6 @@ public class Input {
 	
 
 	public String getString() {
-		System.out.println("Enter a string");
 		return scanner.nextLine();
 	}
 
@@ -43,7 +42,6 @@ public class Input {
 	}
 
 	public double getDouble() {
-		System.out.println("Enter a number");
 		return scanner.nextDouble();
 	}
 
