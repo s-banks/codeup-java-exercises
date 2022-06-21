@@ -6,8 +6,11 @@ public class ShapesTest {
 		Measurable myShape;
 		Rectangle rectangle = new Rectangle(5, 4);
 		myShape = rectangle;
+		System.out.println(myShape.getPerimeter());
+		System.out.println(myShape.getArea());
 
-		Square square = new Square(5, 5);
+
+		Square square = new Square(5);
 		myShape = square;
 
 		System.out.println(myShape.getPerimeter());
