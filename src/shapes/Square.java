@@ -5,7 +5,6 @@ public class Square extends Quadrilateral{
 	private int side;
 
 	public Square(int side) {
-
 		super(side, side);
 		this.side = side;
 	}
@@ -21,14 +20,13 @@ public class Square extends Quadrilateral{
 	}
 
 	@Override
-	public void setLength(int length) {
-
+	public void setLength() {
 	}
 
 	@Override
-	public void setWidth(int width) {
-
+	public void setWidth() {
 	}
+
 }
 
 
