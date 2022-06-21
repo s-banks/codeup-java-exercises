@@ -3,11 +3,11 @@ import java.util.ArrayList;
 
 
 public class Student {
-	private String name;
-	private ArrayList<Integer> grades;
+	private final String name;
+	private final ArrayList<Integer> grades;
 
 
-	public Student(String name, ArrayList<Integer> grades) {
+	public Student(String name) {
 		this.name = name;
 		this.grades = new ArrayList<>();
 	}

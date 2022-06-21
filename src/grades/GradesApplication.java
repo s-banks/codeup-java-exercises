@@ -1,6 +1,6 @@
 package grades;
 
-public class GradesApplication {
+public class commitGradesApplication {
 	public static void main(String[] args) {
 
 
