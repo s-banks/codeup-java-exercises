@@ -7,7 +7,7 @@ public class Input {
 	
 
 	public String getString() {
-		return scanner.nextLine();
+		return this.scanner.nextLine();
 	}
 
 	public void clearScanner() {
@@ -26,8 +26,14 @@ public class Input {
 	}
 
 	public int getInt() {
-		System.out.println("Enter a whole number");
-		return scanner.nextInt();
+		while (true) {
+			try {
+				System.out.println("Enter an integer");
+				return Integer.valueOf(getString());
+			} catch (NumberFormatException e) {
+				System.out.println("Input is not an integer.");
+			}
+		}
 	}
 
 	public int getInt(int min, int max) {
@@ -42,7 +48,14 @@ public class Input {
 	}
 
 	public double getDouble() {
-		return scanner.nextDouble();
+		while (true) {
+			try {
+				System.out.println("Enter a number ");
+				return Double.valueOf(getString());
+			} catch (NumberFormatException e) {
+				System.out.println("Input is not a number.");
+			}
+		}
 	}
 
 	public double getDouble(double min, double max) {
@@ -53,6 +66,28 @@ public class Input {
 		} else {
 			System.err.println("Not a valid input");
 			return getDouble(min, max);
+		}
+	}
+
+	public int getBinary() {
+		while (true) {
+			try {
+				System.out.println("Enter a binary number");
+				return Integer.valueOf(getString(), 2);
+			} catch (NumberFormatException e) {
+				System.out.println("Input is not binary.");
+			}
+		}
+	}
+
+	public int getHex() {
+		while (true) {
+			try {
+				System.out.println("Enter a hexidecimal number");
+				return Integer.valueOf(getString(), 16);
+			} catch (NumberFormatException e) {
+				System.out.println("Input is not hexidecimal.");
+			}
 		}
 	}
 
